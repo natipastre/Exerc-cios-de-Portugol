@@ -1,63 +1,148 @@
-ENUNCIADO DOS EXERCÍCIOS
+📝 Enunciado dos Exercícios
+Exercício 1: Soma de Dois Números
+Objetivo: Elabore um algoritmo que leia dois números e mostre a soma deles.
 
-Exercício 1 - Elabore um algoritmo que leia dois números e mostre a soma deles.
+Exercício 2: Cálculo de Multa de Trânsito
+Objetivo: Crie um algoritmo que calcule a multa de um motorista com base na velocidade em que ele estava dirigindo.
+Regras de Multa:
 
-Exercício 2 - Crie um algoritmo que receba velocidade máxima permitida em uma avenida e a velocidade com que o motorista estava dirigindo nela e calcule a multa que uma pessoa vai receber, sabendo que são pagos:
-a) 50 reais se o motorista estiver ultrapassar em até 10 km/h a velocidade permitida;
-b) 100 reais, se o motorista ultrapassar de 11 a 30 km/h a velocidade permitida;
-c) 200 reais, se estiver acima de 31 km/h da velocidade permitida.
+50 reais: Se o motorista ultrapassar a velocidade em até 10 km/h da máxima permitida.
 
-1 Exibir o cabeçalho do programa
-2- Mostrar a mensagem: "Qual a velocidade máxima permitida na avenida?"
-3- Receber a velocidade máxima permitida
-4- Mostrar a mensagem: "Qual a velocidade em que o usuário trafegava na via?"
-5- Receber a velocidade real que o usuário trafegava
-6- Se a velocidade estiver acima da permitida
-a. Exibir o cabeçalho da mensagem de retorno
-b. Exibir a mensagem e acordo com a proposta do algoritmo
-7- Se estiver igual ou abaixo da velocidade máxima permitida
-a. Exibir o cabeçalho da mensagem de retorno
-b. Exibir a mensagem de acordo com a proposta do algoritmo
+100 reais: Se ultrapassar de 11 a 30 km/h.
 
-Exercício 3 - João é pescador e faz parte de uma cooperativa de pesca no litoral. Cada pescador pode trazer no máximo 3 peixes por dia. Crie um algoritmo que receba o peso dos 10 peixes trazidos por João e informe:
+200 reais: Se ultrapassar em 31 km/h ou mais.
 
-a) O peixe mais pesado
-b) O peixe mais leve
-c) A média de peso dos peixes
+Passos para o algoritmo:
 
-1- Exibir o cabeçalho do programa
-2- Para 1 até 3 peixesfaça:
-a. Exibir a mensagem: "Informe o peso do X ° peixe:"
-b. Recebero peso do peixe
-c. Verificar se o peso informado é o menor
-d. Verificar se o peso informado é o maior
-e. Armazenaro peso informado em uma variável que somará todos os pesos
-3- Exibir o cabeçalho da mensagem
-4- Exibir a mensagem: "Ótima pescaria João!"
-5- Exibir a mensagem: "A média de peso dos peixes foi de Xkg"
-6- Exibir a mensagem: "O menor peixe pesou: Xkg"
-7- Exibir a mensagem: "E o maior deles pesou: Xkg"
-8- Exibir o rodapé do programa
-Formula da Média: (Soma do peso dos peixes / Número de peixes)
+Exibir o cabeçalho do programa.
 
-Exercicio 4 - Uma empresa quer verificar se um empregado está qualificado para a aposentadoria ou não.
+Mostrar a mensagem: "Qual a velocidade máxima permitida na avenida?".
 
-- Ter no mínimo 65 anos de idade.
-- Ter trabalhado no mínimo 30 anos.
-- Ter no mínimo 60 anos e ter trabalhado no mínimo 25 anos.
+Receber a velocidade máxima permitida.
 
-Com base nas informações acima, faça um algoritmo que leia: o número do empregado (código), o ano de seu nascimento e o ano de seu ingresso na empresa. 
-O programa deverá escrever a idade e o tempo de trabalho do empregado e a mensagem 'Requerer aposentadoria' ou 'Não requerer'.
+Mostrar a mensagem: "Qual a velocidade em que o usuário trafegava na via?".
+
+Receber a velocidade real que o motorista trafegava.
+
+Se a velocidade estiver acima do permitido:
+
+Exibir o cabeçalho da mensagem de retorno.
+
+Exibir a mensagem com base no valor da multa.
+
+Se estiver igual ou abaixo da velocidade máxima permitida:
+
+Exibir o cabeçalho da mensagem de retorno.
+
+Exibir a mensagem de que o motorista está dentro do limite.
+
+Exercício 3: Pesca de João
+Objetivo: João é pescador e faz parte de uma cooperativa de pesca. Cada pescador pode trazer no máximo 3 peixes por dia. Crie um algoritmo que receba o peso de 10 peixes trazidos por João e informe:
+
+O peixe mais pesado
+
+O peixe mais leve
+
+A média de peso dos peixes
+
+Passos para o algoritmo:
+
+Exibir o cabeçalho do programa.
+
+Para cada peixe (até 10):
+
+Exibir a mensagem: "Informe o peso do X° peixe".
+
+Receber o peso do peixe.
+
+Verificar se o peso é o menor ou maior.
+
+Somar o peso dos peixes.
+
+Exibir o cabeçalho da mensagem.
+
+Exibir a mensagem: "Ótima pescaria João!".
+
+Exibir a média de peso dos peixes: "A média de peso dos peixes foi de X kg".
+
+Exibir o peixe mais leve e mais pesado.
+
+Exibir o rodapé do programa.
+
+Fórmula da Média:
+M
+e
+ˊ
+dia
+=
+Soma dos pesos
+N
+u
+ˊ
+mero de peixes
+M 
+e
+ˊ
+ dia= 
+N 
+u
+ˊ
+ mero de peixes
+Soma dos pesos
+​
  
-Exercicio 5 -Construa um algoritmo que tenha um variável nascimento com o ano de nascimento e apresente na tela quantos anos a pessoa fará em 2020 
-(desconsidere o mês de aniversário).
 
-Exercício 6 - Construa um algoritmo que leia 4 notas e mostre a média.
+Exercício 4: Verificação de Aposentadoria
+Objetivo: Verificar se um empregado está apto a solicitar a aposentadoria, com base nos seguintes critérios:
 
-Exercício 7 - Faça um algoritmo em Portugol que solicita três números inteiros e mostra o maior deles. 
-Exiba uma mensagem caso os três números não forem diferentes. Sua saída deverá ser parecida com:
+Ter 65 anos de idade ou mais, e ter trabalhado no mínimo 30 anos.
 
-Informe o primeiro número: 5
-Informe o segundo número: 8
-Informe o terceiro número: 3
-O segundo número é o maior
+Ou ter 60 anos e trabalhado no mínimo 25 anos.
+
+Passos para o algoritmo:
+
+Ler o número do empregado (código), ano de nascimento e ano de ingresso na empresa.
+
+Calcular a idade do empregado e o tempo de serviço.
+
+Exibir a idade e o tempo de trabalho do empregado.
+
+Exibir a mensagem: "Requerer aposentadoria" ou "Não requerer aposentadoria".
+
+Exercício 5: Cálculo de Idade em 2020
+Objetivo: Calcular a idade de uma pessoa em 2020, dado o seu ano de nascimento.
+
+Passos para o algoritmo:
+
+Ler o ano de nascimento.
+
+Exibir a idade da pessoa em 2020.
+
+Exercício 6: Cálculo da Média de Notas
+Objetivo: Crie um algoritmo que leia 4 notas e calcule a média.
+
+Passos para o algoritmo:
+
+Ler as 4 notas.
+
+Calcular a média das notas.
+
+Exibir a média calculada.
+
+Exercício 7: Identificar o Maior Número
+Objetivo: Solicitar três números inteiros e exibir qual é o maior. Caso os números não sejam diferentes, exibir uma mensagem de aviso.
+
+Passos para o algoritmo:
+
+Solicitar ao usuário que informe o primeiro, segundo e terceiro número.
+
+Verificar qual número é o maior.
+
+Exibir a mensagem com o maior número, caso todos os números sejam diferentes.
+
+Se algum número for igual aos outros, exibir a mensagem: "Os números não são diferentes".
+
+👩‍💻 Desenvolvido por
+Natália Baptista Pastre
+🔗 LinkedIn •
+https://www.linkedin.com/in/natalia-pastre/
