@@ -70,29 +70,9 @@ Exibir o peixe mais leve e mais pesado.
 
 Exibir o rodapé do programa.
 
-Fórmula da Media:
-M
-e
-ˊ
-dia
-=
-Soma dos pesos
-N
-u
-ˊ
-mero de peixes
-M 
-e
-ˊ
- dia= 
-N 
-u
-ˊ
- mero de peixes
-Soma dos pesos
-​
- 
+Fórmula da Média: Média = Soma dos pesos/soma dos peixes
 
+​
 Exercício 4: Verificação de Aposentadoria
 Objetivo: Verificar se um empregado está apto a solicitar a aposentadoria, com base nos seguintes critérios:
 
