@@ -37,7 +37,8 @@ Exibir o cabeçalho da mensagem de retorno.
 Exibir a mensagem de que o motorista está dentro do limite.
 
 Exercício 3: Pesca de João
-Objetivo: João é pescador e faz parte de uma cooperativa de pesca. Cada pescador pode trazer no máximo 3 peixes por dia. Crie um algoritmo que receba o peso de 10 peixes trazidos por João e informe:
+Objetivo: João é pescador e faz parte de uma cooperativa de pesca. 
+Cada pescador pode trazer no máximo 3 peixes por dia. Crie um algoritmo que receba o peso de 10 peixes trazidos por João e informe:
 
 O peixe mais pesado
 
@@ -69,7 +70,7 @@ Exibir o peixe mais leve e mais pesado.
 
 Exibir o rodapé do programa.
 
-Fórmula da Média:
+Fórmula da Media:
 M
 e
 ˊ
